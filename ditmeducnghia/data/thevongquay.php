@@ -1,0 +1,71 @@
+<div class="content-wrapper">
+
+    <?php
+  
+    if(isset($_GET['xoa']))
+    {
+        $mysqli->query("DELETE FROM `thegame` WHERE `id` = '".$_GET['xoa']."'");
+        echo thongbao('Xoá thành công','thanhcong');
+    }
+    $where = '';
+
+    $p = '';
+    if (isset($_GET['id'])) {
+        $where = ' AND `mathe` = \'' . $_GET['id'] . '\' or `serial` = \'' . $_GET['id'] . '\' or `menhgia` = \'' . $_GET['id'] . '\' or `nhamang` = \'' . $_GET['id'] . '\'  or `uid` = \'' . $_GET['id'] . '\'';
+    }
+    if (isset($_POST['id'])) {
+        $where = '  AND `mathe` = \'' . $_POST['id'] . '\' or `serial` = \'' . $_POST['id'] . '\' or `menhgia` = \'' . $_POST['id'] . '\' or `nhamang` = \'' . $_POST['id'] . '\' or `uid` = \'' . $_POST['id'] . '\' ';
+    }
+    $ng = $mysqli->query("SELECT * FROM `thegame` WHERE `uid` >=1  $where   ORDER by id DESC LIMIT $start, $kmess");
+    $trang = '';
+
+    if ($mysqli->query("SELECT * FROM `thegame` WHERE `uid` >=1 $where ")->num_rows > $kmess) {
+        $trang = '<center>' . trang('/admin/index.php?f=thechuadung' . $p . '&', $start, $mysqli->query("SELECT * FROM `thegame` $where ")->num_rows, $kmess) . '</center>';
+    }
+    $table = '';
+    while ($m = $ng->fetch_assoc()) {
+        $c = new users($m['uid']);
+        $table .= '<tr><td>' . $m['serial'] . '</td> <td>' . $m['mathe'] . '</td> <td>' . $m['nhamang'] . '</td> <td>' . $m['menhgia'] . '</td> <td>' . $c->name() . '</td> <td><a href="/admin/index.php?f=thechuadung&xoa=' . $m['id'] . '">XOÁ THẺ</a></td></tr>';
+    }
+    ?>
+   
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Danh sách thẻ cào vòng quay</h4>
+                <p class="card-description">
+                <form class="form-inline" action="/admin/index.php?f=thechuadung" method="post">
+
+                    <div class="input-group mb-2 mr-sm-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">@</div>
+                        </div>
+                        <input type="text" class="form-control" name="id" id="inlineFormInputGroupUsername2" placeholder="Tìm gì cũng đc">
+                    </div><button type="submit" class="btn btn-gradient-primary mb-2">Tìm kiếm</button>
+                </form>
+                </p>
+
+            
+                <div class="table-responsive">
+
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Serial thẻ</th>
+                                <th> Mã thẻ </th>
+                                <th> Nhà mạng </th>
+                                <th> Mệnh giá </th>
+                                <th> Người chơi </th>
+                                <th> Hành động </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?= $table ?>
+                        </tbody>
+                    </table>
+                    <?= $trang ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

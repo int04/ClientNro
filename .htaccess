@@ -1,0 +1,20 @@
+
+RewriteEngine On
+#RewriteCond %{HTTPS} !=on [NC]
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteRule ^user$ function/index.php [L]
+RewriteRule ^user-play$ function/play.php [L]
+RewriteRule ^user-his$ function/lode.php [L]
+
+
+
+
+
+
+
+
+
+
+
+
+

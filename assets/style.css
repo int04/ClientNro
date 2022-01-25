@@ -1,0 +1,52 @@
+@media only screen and (max-width: 600px) {
+    #movetaixiu {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    #taixiu {
+        left: 0px !important;
+    }
+}
+ 
+
+.activeon
+{
+    color: #cddc39;
+}
+
+#container-chat {
+    display: block;
+}
+
+#container-chat tr {
+    display: block;
+}
+
+#container-chat td {
+    display: block;
+}
+
+
+ .panel-heading {
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #ffc348;
+    border: 1px solid #ffc348 !important;
+    color: red;
+}
+.panel-title {
+    font-family: 'SVN-Quadrat';
+    color: #1d1c18;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center!important;
+}
+
+.game-item-2.taixiu-icon{background: url(/lib/img/icon/1.gif) 0% 0% /100% 100%;height: 100%;}
+.game-item-2.baucua-icon{background: url(/lib/animation/baucua/bkg.png) 0% 0% /100% 100%;}
+.game-item-2.baucua-icon .cai_dia{background: url(/lib/animation/baucua/dia.png) 0% 0% /100% no-repeat;width: 50%;padding-bottom: 53.25%;top: 15%;left: 15%;}
+.game-item-2.baucua-icon .lac_dia{background: url(/lib/animation/baucua/bat.png) 0% 0% /100% no-repeat;width: 50%;padding-bottom: 53.25%;top: 15%;left: 35%;}
+.game-item-2.baucua-icon .phong_text{background: url(/lib/animation/baucua/text.png) 0% 0% /cover;width: 80%;height: 28%;bottom: 5%;left: 10%;}

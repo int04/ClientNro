@@ -1,0 +1,356 @@
+.show-from.forpassword-from .div-from {
+    height: 17%;
+    margin-top: 0.5%;
+    position: relative;
+}
+
+@-webkit-keyframes slidex {
+    from {
+        background-position-x: 100%;
+    }
+    to {
+        background-position-x: 0%;
+    }
+}
+
+@-moz-keyframes slidex {
+    from {
+        background-position-x: 100%;
+    }
+    to {
+        background-position-x: 0%;
+    }
+}
+
+@-ms-keyframes slidex {
+    from {
+        background-position-x: 100%;
+    }
+    to {
+        background-position-x: 0%;
+    }
+}
+
+@-o-keyframes slidex {
+    from {
+        background-position-x: 100%;
+    }
+    to {
+        background-position-x: 0%;
+    }
+}
+
+@keyframes slidex {
+    from {
+        background-position-x: 100%;
+    }
+    to {
+        background-position-x: 0%;
+    }
+}
+
+@-webkit-keyframes slidey {
+    from {
+        background-position-y: 0%;
+    }
+    to {
+        background-position-y: -200%;
+    }
+}
+
+@-moz-keyframes slidey {
+    from {
+        background-position-y: 0%;
+    }
+    to {
+        background-position-y: -200%;
+    }
+}
+
+@-ms-keyframes slidey {
+    from {
+        background-position-y: 0%;
+    }
+    to {
+        background-position-y: -200%;
+    }
+}
+
+@-o-keyframes slidey {
+    from {
+        background-position-y: 0%;
+    }
+    to {
+        background-position-y: -200%;
+    }
+}
+
+@keyframes slidey {
+    from {
+        background-position-y: 0%;
+    }
+    to {
+        background-position-y: -200%;
+    }
+}
+
+.randomcard {
+    background-size: cover;
+    background-image: url(../img/ct/card.png);
+}
+
+.game-item-2 {
+    position: relative;
+}
+
+.cardslide {
+    background: url(../img/ct/slide.png) 0% 0% / cover no-repeat;
+    display: block;
+    animation: slidex 5s infinite steps(51, end);
+    -webkit-animation: slidex 5s infinite steps(51, end);
+    -moz-animation: slidex 5s infinite steps(51, end);
+    -ms-animation: slidex 5s infinite steps(51, end);
+    -o-animation: slidex 5s infinite steps(51, end);
+}
+
+.khung_game_show {
+    font-weight: 700;
+    position: absolute;
+    z-index: 100;
+    height: 0px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.khung_game_show .block_game {
+    margin: auto;
+    max-width: 600px;
+    position: relative;
+    width: 55%;
+}
+
+.khung_game_show.actigame {
+    z-index: 500 !important;
+}
+
+.ui-resizable-e {
+    cursor: e-resize;
+    width: 2%;
+    right: -5px;
+    top: 0;
+    height: 100%;
+    position: absolute;
+}
+
+.ui-resizable-s {
+    cursor: s-resize;
+    height: 3%;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    position: absolute;
+}
+
+.ui-resizable-se {
+    cursor: se-resize;
+    width: 12px;
+    height: 12px;
+    right: 1px;
+    bottom: 1px;
+    position: absolute;
+}
+
+#game_id_1_mini img,
+#game_id_8_mini img {
+    -webkit-animation: zoomout 0.5s infinite alternate;
+    -moz-animation: zoomout 0.5s infinite alternate;
+    animation: zoomout 0.5s infinite alternate;
+}
+
+.marquee {
+    overflow: hidden;
+}
+
+.marquee p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: scroll-left 2s linear infinite;
+    -webkit-animation: scroll-left 2s linear infinite;
+    animation: scroll-left 20s linear infinite;
+}
+
+@-moz-keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes scroll-left {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+.game-item-2 img {
+    width: 100%;
+}
+
+.huanimetion {
+    position: absolute;
+    width: 90%;
+    height: 62%;
+    left: 5%;
+    top: 34%;
+}
+
+.huanimetion .title {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: 0px 0px 4px black, 0px 0px 4px black, 0px 0px 4px black;
+}
+
+.huanimetion .title .sub {
+    float: left;
+    position: relative;
+    width: 33%;
+    height: 100%;
+}
+
+.huanimetion .title .sub.active {
+    color: #2df56e;
+}
+
+.huanimetion .body_1 {
+    position: relative;
+    width: 100%;
+    height: 24%;
+    font-weight: 900;
+    text-align: left;
+}
+
+.huanimetion .body_1 img {
+    width: auto !important;
+    height: 92%;
+    margin-left: 5px !important;
+}
+
+.huanimetion .body_1 .score {
+    position: absolute;
+    right: 34.5%;
+    top: 45%;
+    color: #FFEB3B;
+    display: none;
+}
+
+.huanimetion .body_1 .score.active {
+    display: block;
+}
+
+.menu-game {
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+.taixiu-icon .money-xiu,
+.taixiu-icon .money-tai {
+    position: absolute;
+    width: 60%;
+    height: 13%;
+    right: 23.5%;
+    top: 61%;
+    font-weight: 900;
+    color: #FFEB3B;
+    border-radius: 5px;
+    text-shadow: 0px 0px 4px black, 0px 0px 4px black, 0px 0px 4px black;
+}
+
+.taixiu-icon .money-xiu {
+    color: #ffffff;
+    right: 15.5%;
+    top: 82%;
+}
+
+.icon_time_home {
+    position: absolute;
+    width: 30%;
+    padding-bottom: 30%;
+    background: #000000b0;
+    right: 9%;
+    top: 6%;
+    font-weight: 900;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.contain {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.menu_game_drag {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: none;
+}
+
+.animatnone {
+    transform: none !important;
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+}
+
+#idtrunghu {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: -3%;
+    z-index : 99999;
+    width: 60%;
+    left: 20%;
+    text-align: left;
+    color: #13dbff;
+    font-weight: 900;
+    text-shadow: 0px 0px 4px black, 0px 0px 4px black, 0px 0px 4px black;
+}

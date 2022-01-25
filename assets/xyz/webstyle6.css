@@ -1,0 +1,1130 @@
+select option {
+    background: rgba(0, 0, 0, 0.82);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+}
+
+.dice-game-block.use-coin .column-number .row-1 {
+    color: #fff;
+}
+
+p.row-0 {
+    margin: 0px;
+}
+
+.phaii {
+    right: -96px !important;
+}
+
+.traii {
+    left: 10px !important;
+    /* right: 102px !important; */
+}
+
+div#bangketquacl {
+    margin-top: 45px;
+}
+
+div#bangketquatx {
+    margin-top: 45px;
+}
+
+@media (max-width: 500px) and (min-width: 1px) {
+    .ketquatx {
+        height: 89% !important;
+        float: right;
+        margin-right: 7px;
+        cursor: pointer;
+    }
+    .phaii {
+        right: -82px !important;
+    }
+    .traii {
+        left: 21px !important;
+        /* right: 102px !important; */
+    }
+    .column-number .row-0 .totalcountBetUnder {
+        font-size: 12px !important;
+        color: #fff !important;
+        position: absolute;
+        top: -12px !important;
+        font-weight: bold;
+    }
+    .column-number:nth-child(2) {
+        left: 249px !important;
+    }
+    .column-number {
+        top: 62px !important;
+        left: 10px !important;
+    }
+    div#bangketquatx {
+        margin-top: 35px !important;
+    }
+    div#bangketquacl {
+        margin-top: 35px !important;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 1px) {
+    .column-number:nth-child(2) {
+        left: 372px;
+    }
+    .column-number .row-0 .totalcountBetOver {
+        font-size: 12px !important;
+        color: #fff !important;
+        position: absolute;
+        top: -2px !important;
+        /* right: 92px !important; */
+        font-weight: bold;
+    }
+    .phaii {
+        right: -66px !important;
+    }
+    .ketquatx {
+        height: 75% !important;
+        margin-right: 7px;
+    }
+    .traii {
+        right: 87px !important;
+    }
+    .column-number .row-2 input {
+        width: 110px;
+        height: 28px;
+        background: none;
+        border: none;
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .column-number:first-child {
+        /* left: -8px !important; */
+    }
+    .column-number:nth-child(2) {
+        left: 220px !important;
+    }
+    #bangketquacl {
+        margin-top: 31px !important;
+    }
+    #bangketquatx {
+        margin-top: 31px !important;
+    }
+    .column-number {
+        position: absolute;
+        width: 138px;
+        top: 48px !important;
+        left: 1px !important;
+        text-align: center;
+    }
+    .column-number .row-1 {
+        height: 16px !important;
+        font-family: Roboto-Regular, Roboto, Arial, sans-serif;
+        font-size: 14px !important;
+        color: #fff709;
+        line-height: 32px !important;
+        font-weight: bold;
+    }
+    .column-number:nth-child(2) .row-1 span {
+        left: 91px
+    }
+    .column-number .row-2 {
+        height: 17px !important;
+        margin-top: 6px !important;
+    }
+    .column-number .row-0 .totalcountBetOver {
+        font-size: 16px;
+        color: #fff !important;
+        position: absolute;
+        top: -22px;
+        right: 119px;
+        font-weight: bold;
+    }
+    .column-number .row-0 .userIconOver {
+        position: absolute;
+        top: -22px;
+        text-align: center;
+        background: url(../images/Tx/user-tx.png?v=1.6) no-repeat;
+        width: 14px;
+        height: 13px;
+        right: 100px;
+    }
+    .column-number .row-0 .totalcountBetUnder {
+        font-size: 11px !important;
+        color: #fff !important;
+        position: absolute;
+        top: -1px !important;
+        left: 119px;
+        font-weight: bold;
+    }
+    .column-number .row-0 .userIconUnder {
+        position: absolute;
+        top: -22px;
+        text-align: center;
+        background: url(../images/Tx/user-tx.png?v=1.6) no-repeat;
+        width: 14px;
+        height: 13px;
+        left: 101px;
+    }
+}
+
+.column-number .row-2 input {
+    width: 110px;
+    height: 28px;
+    background: none;
+    border: none;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.minigame-popup .dice-game-block .column-price .column-number .row-2 input:focus {
+    outline: none;
+}
+
+.column-price {}
+
+.column-number:first-child {
+    left: 42px;
+}
+
+.column-number:nth-child(2) {
+    left: 372px;
+}
+
+.column-number {
+    position: absolute;
+    width: 138px;
+    top: 101px;
+    left: 43px;
+    text-align: center;
+}
+
+.column-number .row-1 {
+    height: 16px;
+    font-family: Roboto-Regular, Roboto, Arial, sans-serif;
+    font-size: 15px;
+    color: #fff709;
+    line-height: 1px;
+    font-weight: bold;
+}
+
+.bussTxScale {
+    animation: bubbleTx infinite 3s linear;
+    -webkit-animation: bubbleTx infinite 3s ease;
+}
+
+.column-number .row-3 {
+    color: #fff;
+}
+
+.label-chat-show {
+    height: 46px;
+    width: 46px;
+    position: absolute;
+    bottom: 36px;
+    left: 38px;
+    background: url(../images/Tx/label-icon-chat.png?v=1.6) no-repeat;
+}
+
+.column-number:nth-child(2) .row-1 span {
+    left: 91px
+}
+
+.column-number .row-2 {
+    /* height: 39px; */
+    margin-top: 6px;
+}
+
+.column-number .row-0 .totalcountBetOver {
+    font-size: 16px;
+    color: #fff !important;
+    position: absolute;
+    top: -30px;
+    right: 109px;
+    font-weight: bold;
+}
+
+.column-number .row-0 .userIconOver {
+    position: absolute;
+    top: -22px;
+    text-align: center;
+    background: url(../images/Tx/user-tx.png?v=1.6) no-repeat;
+    width: 14px;
+    height: 13px;
+    right: 100px;
+}
+
+.column-number .row-0 .totalcountBetUnder {
+    font-size: 16px;
+    color: #fff !important;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    font-weight: bold;
+}
+
+.column-number .row-0 .userIconUnder {
+    position: absolute;
+    top: -22px;
+    text-align: center;
+    background: url(../images/Tx/user-tx.png?v=1.6) no-repeat;
+    width: 14px;
+    height: 13px;
+    left: 101px;
+}
+
+#minigamexx .tipBet,
+#minigamexx .message {
+    position: absolute;
+    top: 197px;
+    text-align: center;
+    left: 124px;
+    width: 309px;
+    height: 45px;
+    background: url(../images/Tx/bgtext.png) no-repeat;
+}
+
+.column-number .row-3 {
+    color: #fff;
+    font-family: Roboto-Regular, Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#demsophai,
+#demsotrai,
+.demsophai,
+.demsotrai {
+    float: left;
+    height: 100%;
+    background: url(img/0-9.png) 0% 0% / cover no-repeat;
+}
+
+#soketqua {
+    opacity: 0;
+    background: url(img/tron.png) 0px 0px / cover;
+    height: 15%;
+    float: left;
+    margin-left: 57%;
+    margin-top: 4%;
+    position: absolute;
+}
+
+.diggold ol,
+ul {
+    list-style: none;
+}
+
+#ag * {
+    font-family: Roboto-Regular, Roboto, Arial, sans-serif;
+}
+
+.use-star * {
+    color: #ffe558;
+}
+
+.chatboxclass {
+    background: url(img/chat.png) 0% 0% / cover no-repeat;
+    height: 85%;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+    margin-top: -18%;
+    position: absolute;
+    height: 20%;
+}
+
+@media (max-width: 550px) {
+    .setfast {
+        position: absolute;
+        width: 391px !important;
+        height: 84px !important;
+        top: 186px !important;
+        left: -33px !important;
+        margin-left: 0px !important;
+        background: rgba(26, 12, 35, 0.5);
+        border-radius: 10px;
+    }
+}
+
+.setfast {
+    position: absolute;
+    width: 454px;
+    margin-left: 17px;
+    height: 87px;
+    top: 281px;
+    left: 48px;
+    background: rgba(26, 12, 35, 0.5);
+    border-radius: 10px;
+}
+
+.setfast ul li {
+    width: 65px;
+    height: 36px;
+    float: left;
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #9b9fa4 100%);
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-family: Roboto-Regular, Roboto, Arial, sans-serif;
+}
+
+.setfast ul li:hover {
+    filter: brightness(120%);
+    -webkit-filter: brightness(120%);
+}
+
+.setfast ul li.btfast {
+    background: linear-gradient(to bottom, #ff7271 0%, #de5348 50%, #731209 100%);
+}
+
+#muagosunhanh,
+#muavndnhanh,
+#napthenhanh,
+#muathenhanh {
+    max-width: 367px;
+    position: absolute;
+    z-index: 20;
+    display: none;
+}
+
+.muanap {
+    background: url(img/nenthe.png) 0% 0% / cover no-repeat;
+    border: solid 2px #fcdc03;
+    border-radius: 20px;
+}
+
+.nentaixiu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+}
+
+.muanap2 {
+    color: #28a745;
+    text-align: center;
+    border: solid 2px #22045e;
+    border-radius: 18px 18px 0px 0px;
+}
+
+.muanap3 {
+    border: solid 2px #22045e;
+    border-radius: 0px 0px 20px 20px;
+    border-top-color: #ffffff96;
+    padding: 10px;
+}
+
+.muanaptb {
+    background: #eeeeee;
+    width: 100%;
+    margin-left: 0px !important;
+    text-align: center;
+    border-radius: 50px;
+    background: #00000100;
+    color: white;
+    border-color: #ffffffc9;
+    font-weight: 600;
+}
+
+.rutban,
+.rutban a {
+    color: #47d454 !important;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.butonx {
+    background: url(img/xx.png) 0% 0% / cover no-repeat;
+    width: 40px;
+    ;
+    height: 40px;
+}
+
+.selecthe {
+    border-radius: 50px;
+    background-color: #0000;
+    color: white !important;
+    font-weight: 600;
+    font-size: 19px;
+    height: 40px;
+    border-color: #d2d6de;
+}
+
+.form-control:focus {
+    border-color: #ffffff !important;
+    box-shadow: none;
+}
+
+.selecthe::placeholder {
+    color: #ffffffb8 !important;
+}
+
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    background-color: #0033;
+    opacity: 1;
+}
+
+@media(min-width:1px) and (max-width:400px) {
+    .rollfont {
+        font-size: 12px;
+    }
+    #datcuatai,
+    #datcuaxiu {
+        font-size: 14px;
+    }
+    #datcuaxiu {
+        margin-left: 0%;
+    }
+}
+
+@media(min-width:401px) {
+    .rollfont {
+        font-size: 14px;
+    }
+    #datcuatai,
+    #datcuaxiu {
+        /* font-size: 16px; */
+    }
+    #datcuaxiu {
+        /* margin-left: 60%; */
+    }
+}
+
+.rollfont {
+    position: absolute;
+    height: 20%;
+    margin-top: -50%;
+    margin-left: 25%;
+    color: white;
+    font-weight: 600;
+}
+
+.gosushow {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 230px;
+    text-align: center;
+    color: #00c0ef;
+    background: #00000082;
+    border-radius: 40px;
+    font-size: 20px;
+    height: auto;
+    font-weight: 600;
+}
+
+#datcuatai::placeholder,
+#datcuaxiu::placeholder {
+    color: #ffe553;
+    opacity: 1;
+}
+
+.ketquatx {
+    background: url(img/dt2.png) 0% 0% / cover no-repeat;
+    height: 105%;
+    float: right;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+#aquaplayer div,
+#aquaplayer2 div,
+#aquaplayer3 div,
+#redplayer3 div,
+#redplayer div,
+#redplayer2 div,
+.xingaurd div,
+.xepsocolor div {
+    background-size: cover !important;
+    height: 85%;
+    float: left;
+    background-repeat: no-repeat !important;
+}
+
+.cuoczoom:hover,
+.tiennhanh:hover {
+    transform: scale(1.15) !important;
+    cursor: pointer;
+}
+
+.cuoczoom {
+    transform: scale(0.95);
+    background: url(tx/txdat.png) 0% 0% / cover no-repeat;
+    height: 85%;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+    width: 30%;
+}
+
+.tiennhanh {
+    transform: scale(0.95);
+    height: 85%;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+}
+
+#aquaplayer div,
+#aquaplayer2 div,
+.xepsored div {
+    background: url(img/sodo.png) 200% 0% / cover no-repeat;
+}
+
+#redplayer div,
+#redplayer2 div,
+.xepsoaqua div {
+    background: url(img/soxa.png) 200% 0% / cover no-repeat;
+}
+
+#redplayer3 div,
+#aquaplayer3 div,
+.xepsowhite div {
+    background: url(img/sow.png) 200% 0% / cover no-repeat;
+    left: -13px;
+}
+
+#datcuatai::placeholder,
+#datcuaxiu::-ms-input-placeholder {
+    color: #ffe553;
+    opacity: 1;
+}
+
+#datcuatai::placeholder,
+#datcuaxiu::-ms-input-placeholder {
+    color: #ffe553;
+    opacity: 1;
+}
+
+.rollaqua,
+#rollaqua {
+    height: 85%;
+    transform: scale(1.03) !important;
+    float: left;
+    margin-top: 1%;
+    opacity: 0;
+}
+
+.rollred,
+#rollred {
+    height: 85%;
+    margin-top: 0.3%;
+    float: left;
+    transform: scale(1.04) !important;
+    opacity: 0;
+}
+
+.rollred,
+.rollaqua {
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+    -webkit-transform: scale(2.15);
+    -ms-transform: scale(2.15);
+    /* IE 9 */
+    -webkit-transform: scale(2.15);
+    /* Safari 3-8 */
+    transform: scale(2.15);
+}
+
+.vongtx {
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+    -webkit-transform: fa-spin 2s infinite linear;
+}
+
+@-webkit-keyframes xanh {
+    0% {
+        background: url(tx/nhen.png) center center / cover;
+    }
+    50% {
+        background: url(tx/cho.png) center center / cover;
+    }
+    100% {
+        background: url(tx/nhen.png) center center / cover;
+    }
+}
+
+@keyframes xanh {
+    0% {
+        background: url(tx/nhen.png) center center / cover;
+    }
+    50% {
+        background: url(tx/cho.png) center center / cover;
+    }
+    100% {
+        background: url(tx/nhen.png) center center / cover;
+    }
+}
+
+.thu_ht_xanh {
+    -webkit-animation: xanh 5s infinite linear;
+    animation: xanh 5s infinite linear;
+}
+
+@-webkit-keyframes do {
+    0% {
+        background: url(tx/khi.png) center center / cover;
+    }
+    50% {
+        background: url(tx/heo.png) center center / cover;
+    }
+    100% {
+        background: url(tx/khi.png) center center / cover;
+    }
+}
+
+@keyframes do {
+    0% {
+        background: url(tx/khi.png) center center / cover;
+    }
+    50% {
+        background: url(tx/heo.png) center center / cover;
+    }
+    100% {
+        background: url(tx/khi.png) center center / cover;
+    }
+}
+
+.thu_ht_xanh {
+    -webkit-animation: xanh 5s infinite linear;
+    animation: xanh 5s infinite linear;
+}
+
+.thu_ht_do {
+    -webkit-animation: do 5s infinite linear;
+    animation: do 5s infinite linear;
+}
+
+#fx-loading {
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    width: 40%;
+    height: auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -20%;
+    margin-top: -8%;
+    color: #FFF;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 35px 0 0 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    overflow: hidden;
+    z-index: 99999;
+}
+
+@media (min-width: 550px) {
+    #rollplay {
+        top: 26px;
+        left: 113px;
+    }
+    .taixiukhung {
+        width: 60%;
+    }
+    .chattxkhung {
+        width: 40%;
+    }
+    .count-down-left {
+        top: 95px;
+        left: 40%;
+        font-size: 58px;
+        position: absolute;
+        color: #FFF;
+    }
+    .count-down-right {
+        top: 71px;
+        left: 236px;
+        font-size: 77px;
+        position: absolute;
+        color: #FFF;
+    }
+    .count-down-center {
+        top: 71px;
+        left: 257px;
+        font-size: 77px;
+        position: absolute;
+        color: #FFF;
+    }
+    .tag-amount {
+        font-size: 23px;
+        color: #800000;
+        font-weight: bold;
+    }
+    .amount-tag-parent {
+        position: relative;
+        height: 6%;
+        display: block;
+        margin-left: 11%;
+        width: 100%;
+        top: -19%;
+        left: 39px;
+    }
+    .amount-tag-parent1 {
+        position: relative;
+        height: 6%;
+        display: block;
+        margin-left: 11%;
+        width: 100%;
+        top: -9px;
+        left: 39px;
+    }
+    .red-player-parent {
+        top: -43.5%;
+        left: -3% !important;
+    }
+    .hientrai {
+        width: 65% !important;
+    }
+}
+
+@media (max-width: 550px) {
+    #fx-loading {
+        width: 98%;
+        margin-left: -49%;
+        margin-top: -10%;
+    }
+    .hientrai {
+        width: 65% !important;
+    }
+    #rollplay {
+        top: 15px;
+        left: 84px;
+    }
+    .count-down-left {
+        top: 52px;
+        left: 37%;
+        font-size: 54px;
+        position: absolute;
+        color: #FFF;
+    }
+    .count-down-right {
+        top: 23%;
+        left: 39%;
+        font-size: 59px;
+        position: absolute;
+        color: #FFF;
+    }
+    .count-down-center {
+        top: 22%;
+        left: 43%;
+        /*    left: 253px;
+*/
+        font-size: 59px;
+        position: absolute;
+        color: #FFF;
+    }
+    .tag-amount {
+        font-size: 18px;
+        color: #800000;
+        font-weight: bold;
+    }
+    .aquaplayer2 {
+        position: absolute;
+        left: 310px;
+    }
+    .amount-tag-parent {
+        position: relative;
+        height: 6%;
+        display: block;
+        width: 100%;
+        top: -42px;
+        left: 67px;
+    }
+    .amount-tag-parent1 {
+        position: relative;
+        height: 6%;
+        display: block;
+        width: 100%;
+        top: -5px;
+        left: 68px;
+    }
+    .red-player-parent {
+        top: -46% !important;
+        left: -14px !important;
+    }
+}
+
+.font-color-by {
+    vertical-align: unset;
+    background: url(img/fontx.png) -10% -10% / cover no-repeat;
+    height: 100%;
+}
+
+.font-color-white {
+    vertical-align: unset;
+    background: url(font5/color-white.png) -10% -10% / cover no-repeat;
+    height: 100%;
+}
+
+.font-color-aqua {
+    vertical-align: unset;
+    background: url(font5/color-aqua.png) -10% -10% / cover no-repeat;
+    height: 100%;
+}
+
+.font-color-blue {
+    vertical-align: unset;
+    background: url(font5/color-blue2.png) -10% -10% / cover no-repeat;
+    height: 100%;
+}
+
+.font-color-blue2 {
+    vertical-align: unset;
+    background: url(font5/color-blue3.png) -10% -10% / cover no-repeat;
+    height: 100%;
+}
+
+.font-color-whites {
+    vertical-align: unset;
+    background: url(font5/color-whites.png) -10% -10% / cover no-repeat;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .dragon {
+        background: url(/tx/dragontx1.png) no-repeat !important;
+        width: 127px !important;
+        height: 127px !important;
+        position: absolute;
+        left: 125px !important;
+        top: 25px !important;
+        animation-name: spin;
+        animation-duration: 5000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+}
+
+.dragon {
+    background: url(/tx/dragontx.png) no-repeat;
+    width: 197px;
+    height: 196.76px;
+    position: absolute;
+    left: 183px;
+    top: 42px;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.font-color-black {
+    vertical-align: unset;
+    background: url(font5/color-black.png) -10% -10% / cover no-repeat;
+    height: 100%;
+}
+
+.font-color-green {
+    vertical-align: unset;
+    background: url(font5/color-green.png) -10% -10% / cover no-repeat;
+    height: 100%;
+}
+
+.font-color-red {
+    vertical-align: unset;
+    background: url(font5/color-red-ht.png) -10% -10% / cover no-repeat;
+    height: 100%;
+}
+
+.form-control:focus {
+    border-color: #000000ab !important;
+    box-shadow: none;
+}
+
+.icon30 {
+    max-height: 28px;
+    background: white;
+    border-radius: 6px;
+}
+
+#redplayer2>div {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 700 !important;
+}
+
+#aquaplayer2>div {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 700 !important;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, 0.22) !important;
+}
+
+.main-sidebar {
+    padding: 1rem;
+    padding-top: 50px;
+}
+
+.skin-blue .main-header .logo {
+    background-color: transparent !important;
+    color: #e0dddd !important;
+    border-bottom: 0 solid transparent;
+}
+
+.skin-blue .main-header .navbar {
+    background: #fff !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.skin-blue .main-header .navbar .nav>li>a {
+    color: #858598 !important;
+}
+
+.skin-blue .main-header .navbar .nav>li>a:hover {
+    color: blue !important;
+}
+
+body {
+    color: #3e4855 !important;
+    background-color: #f4f5f7 !important;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.content-wrapper {
+    background-color: #f4f5f7 !important;
+}
+
+.box {
+    border-radius: 7px;
+    background: #ffffff;
+    border-top: none !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#chathuht tbody tr td {
+    background-color: #f2f3f5;
+    border: solid 1px #eeeff1;
+    margin: 4px;
+    padding: 0px;
+    border-radius: 10px;
+    width: 90%;
+}
+
+#chathuht tbody tr td img {
+    float: left;
+    margin-top: 5px;
+    height: 40px;
+    margin-left: 5px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+#chathuht tbody tr td p {
+    font-weight: normal;
+}
+
+.panel-body {
+    padding: 2px !important;
+}
+
+.panel-primary {
+    border: none !important;
+}
+
+.skin-blue .sidebar a {
+    color: #88889f !important;
+}
+
+.skin-blue .sidebar a:hover {
+    color: #fff !important;
+}
+
+.skin-blue .sidebar ul li a::after {
+   
+    float: right;
+    font: normal normal normal 14px/1 FontAwesome;
+    padding-top: 6px;
+}
+
+.sidebar-menu>li>a>.fa,
+.sidebar-menu>li>a>.glyphicon,
+.sidebar-menu>li>a>.ion {
+    width: auto !important;
+    padding: 7px !important;
+    background: rgba(0, 0, 0, 0.31) !important;
+    border-radius: 5px !important;
+}
+
+#lsButton {
+    width: 8.122%;
+    height: 16%;
+    background: url(/tx/btn_xh.png) 100% 0% / cover no-repeat;
+    cursor: pointer;
+    opacity: 1;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 1%;
+    background: rgba(0, 0, 0, 0) url("/tx/btn_info.png") no-repeat scroll 100% 0% / cover;
+}
+
+#topButton {
+    width: 8.122%;
+    height: 16%;
+    cursor: pointer;
+    opacity: 1;
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 6%;
+    background: rgba(0, 0, 0, 0) url("/tx/btn_xh.png") no-repeat scroll 100% 0% / cover;
+}
+
+#chathuht {
+    overflow-y: auto;
+    display: block;
+    height: calc(100vh - 190px);
+}
+
+@media only screen and (max-width: 600px) {
+    #chathuht {
+        user-select: none;
+        display: block;
+        height: calc(100vh - 300px);
+    }
+}
+
+.user-cash {
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.box-success .note {
+    font-size: 14px;
+}
+
+.error-msg {
+    padding-top: 2px;
+    color: orange;
+}

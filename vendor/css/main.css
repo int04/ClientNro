@@ -1,0 +1,99 @@
+
+table tr td,
+table th {
+  font-size: 11px;
+}
+
+@media (min-width: 991.98px) { 
+  .li-login{
+    margin-right: 7px;
+  }
+  .btn-sv{
+    margin-right: 5px;
+  }
+  table tr td,
+  table th {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .li-login{
+    margin-bottom: 7px;
+    padding-top: 15px;
+  }
+  .li-item{
+    border-bottom: 2px solid white;
+  }
+  #bottomHeader{
+    padding-bottom: 15px;
+  }
+  #index-box-ketqua{
+    margin-bottom: 40px;
+  }
+  .btn-sv{
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+  #vitri {
+    margin-top: 25px;
+  }
+  #chatGlobal {
+    height: 400px !important;
+    font-size: 13px;
+  }
+}
+
+#endHeader{
+  margin-top: 15px;
+}
+
+.li-item{
+  padding: 0 3px;
+}
+
+
+.a-item{
+  color: white !important;
+}
+
+.a-item:hover{
+  color: red !important;
+}
+
+.dropdown-item:hover{
+  color: red !important;
+}
+
+.btn-login:hover{
+  background-color:green ;
+}
+
+.btn-register:hover{
+  background-color:red ;
+}
+
+nav {
+  position: sticky !important;
+
+}
+
+#row-footer{
+  padding: 30px 25px;
+}
+
+.dropdown-item:active{
+  background-color: white !important;
+}
+
+
+hr{
+  margin: auto !important;
+}
+
+.readonly {
+  cursor: not-allowed !important;
+}
+
+
+

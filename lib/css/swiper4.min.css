@@ -1,0 +1,857 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swiper-wrapper {
+    position: relative;
+    display: flex;
+}
+
+.swiper-container .swiper-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+/*.swiper-wrapper .swiper-slide{    display: inline-block;}*/
+
+.middle {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+.contain {
+    position: absolute;
+    width: 100%;
+    max-width: 1200px;
+    max-height: 100%;
+    background: url(../back.png) 0% 0% / 100% 100% no-repeat;
+    box-shadow: rgb(0, 0, 0) 2px 2px 15px;
+}
+
+.full_div {
+    position: relative;
+    display: block;
+    max-height: 100%;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
+
+#header {
+    font-weight: 600;
+    height: 10%;
+    width: 100%;
+    background: url(../web/head.png) 0% 0% / 100% 100% no-repeat;
+}
+
+#header .user1 .userimg {
+    float: left;
+    height: 70%;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 10%;
+    margin-right: 5px;
+    background-position: center;
+    border-radius: 50%;
+    border: solid 2px #06770a;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+
+#header .user1 .username {
+    position: relative;
+    height: 100%;
+    width: 31%;
+    float: left;
+    cursor: pointer;
+}
+
+#header .user1 .middle {
+    overflow: hidden;
+    color: white;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 1%;
+}
+
+#header .user1 .usermoney {
+    float: left;
+    cursor: pointer;
+    margin-left: 8%;
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+#header .right.middle {
+    position: absolute;
+    white-space: nowrap;
+    font-weight: 700;
+    text-shadow: 0px 0px 4px black, 0px 0px 4px black, 0px 0px 4px black;
+}
+
+#footer {
+    height: 10%;
+    width: 100%;
+    background: url(../web/footer.png) 0% 0% / 100% 100% no-repeat;
+}
+
+.game-item-2 {
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.game-item-2 img {
+    /*width: 100%;*/
+    height: 100%;
+}
+
+@-webkit-keyframes hvr-pop {
+    from {
+        -webkit-transform: scale(0.8);
+    }
+    to {
+        -webkit-transform: scale(1.0);
+    }
+}
+
+@-moz-keyframes hvr-pop {
+    from {
+        -moz-transform: scale(0.8);
+    }
+    to {
+        -moz-transform: scale(1.0);
+    }
+}
+
+@-ms-keyframes hvr-pop {
+    from {
+        -ms-transform: scale(0.8);
+    }
+    to {
+        -ms-transform: scale(1.0);
+    }
+}
+
+@-o-keyframes hvr-pop {
+    from {
+        -o-transform: scale(0.8);
+    }
+    to {
+        -o-transform: scale(1.0);
+    }
+}
+
+@keyframes hvr-pop {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1.0);
+    }
+}
+
+@-webkit-keyframes hvr-up {
+    from {
+        -webkit-transform: scale(0.95);
+    }
+    to {
+        -webkit-transform: scale(1.1);
+    }
+}
+
+@-moz-keyframes hvr-up {
+    from {
+        -moz-transform: scale(0.95);
+    }
+    to {
+        -moz-transform: scale(1.1);
+    }
+}
+
+@-ms-keyframes hvr-up {
+    from {
+        -ms-transform: scale(0.95);
+    }
+    to {
+        -ms-transform: scale(1.1);
+    }
+}
+
+@-o-keyframes hvr-up {
+    from {
+        -o-transform: scale(0.95);
+    }
+    to {
+        -o-transform: scale(1.1);
+    }
+}
+
+@keyframes hvr-up {
+    from {
+        transform: scale(0.95);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@-webkit-keyframes updown {
+    from {
+        -webkit-transform: translateY(-20%);
+    }
+    to {
+        -webkit-transform: translateY(20%);
+    }
+}
+
+@-moz-keyframes updown {
+    from {
+        -moz-transform: translateY(-20%);
+    }
+    to {
+        -moz-transform: translateY(20%);
+    }
+}
+
+@-ms-keyframes updown {
+    from {
+        -ms-transform: translateY(-20%);
+    }
+    to {
+        -ms-transform: translateY(20%);
+    }
+}
+
+@-o-keyframes updown {
+    from {
+        -o-transform: translateY(-20%);
+    }
+    to {
+        -o-transform: translateY(20%);
+    }
+}
+
+@keyframes updown {
+    from {
+        transform: translateY(-20%);
+    }
+    to {
+        transform: translateY(20%);
+    }
+}
+
+@-webkit-keyframes zoomout {
+    from {
+        -webkit-transform: scale(0.9);
+    }
+    to {
+        -webkit-transform: scale(1.1);
+    }
+}
+
+@-moz-keyframes zoomout {
+    from {
+        -moz-transform: scale(0.9);
+    }
+    to {
+        -moz-transform: scale(1.1);
+    }
+}
+
+@-ms-keyframes zoomout {
+    from {
+        -ms-transform: scale(0.9);
+    }
+    to {
+        -ms-transform: scale(1.1);
+    }
+}
+
+@-o-keyframes zoomout {
+    from {
+        -o-transform: scale(0.9);
+    }
+    to {
+        -o-transform: scale(1.1);
+    }
+}
+
+@keyframes zoomout {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@-webkit-keyframes changesolid {
+    from {
+        border: 2px solid #ffffff;
+    }
+    to {
+        border: 2px solid #FFEB3B;
+    }
+}
+
+@-moz-keyframes changesolid {
+    from {
+        border: 2px solid #ffffff;
+    }
+    to {
+        border: 2px solid #FFEB3B;
+    }
+}
+
+@-ms-keyframes changesolid {
+    from {
+        border: 2px solid #ffffff;
+    }
+    to {
+        border: 2px solid #FFEB3B;
+    }
+}
+
+@-o-keyframes changesolid {
+    from {
+        border: 2px solid #ffffff;
+    }
+    to {
+        border: 2px solid #FFEB3B;
+    }
+}
+
+@keyframes changesolid {
+    from {
+        border: 2px solid #ffffff;
+    }
+    to {
+        border: 2px solid #FFEB3B;
+    }
+}
+
+.note_play {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding: 7px 15px;
+    text-align: center;
+    color: #00c0ef;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 40px;
+    height: auto;
+    font-weight: 700;
+    z-index: 1;
+    display: none;
+}
+
+.zoom-hove:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.zoom-hover:hover,
+.khung-tx .group-button .button:hover {
+    cursor: pointer;
+    animation: hvr-up 0.3s alternate 2;
+    -webkit-animation: hvr-up 0.3s alternate 2;
+    -moz-animation: hvr-up 0.3s alternate 2;
+    -ms-animation: hvr-up 0.3s alternate 2;
+    -o-animation: hvr-up 0.3s alternate 2;
+}
+
+.game-item-2:hover {
+    animation: hvr-pop 0.3s 1;
+    -webkit-animation: hvr-pop 0.3s 1;
+    -moz-animation: hvr-pop 0.3s 1;
+    -ms-animation: hvr-pop 0.3s 1;
+    -o-animation: hvr-pop 0.3s 1;
+}
+
+.menu-game {
+    width: 100%;
+}
+
+.menu-game .swiper-slide {
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.contain .website-game {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-his #lichsu {
+    position: absolute;
+    background: url(../web/his.png) 0% 0% / 100% 100%;
+    display: none;
+}
+
+.main-his #lichsu .header {
+    overflow: hidden;
+    position: relative;
+    width: 97%;
+    margin-left: 1.5%;
+    font-weight: bolder;
+}
+
+.main-his #lichsu #lsscroll {
+    width: 97%;
+    margin-left: 1.5%;
+    position: relative;
+    height: 90%;
+    text-shadow: 0px 0px 9px black, 0px 0px 9px black;
+}
+
+.main-his #lichsu #lsscroll td {
+    width: 20%;
+}
+
+.main-his #lichsu .header div {
+    float: left;
+    width: 18%;
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 1%;
+}
+
+.main-his #lichsu #lsscroll .bc-body {
+    width: 23%;
+    margin: 1%;
+    background: none;
+    color: #fff;
+    border: none;
+    box-shadow: 0 0 1px 1px #aaa;
+    /*float: left;*/
+    padding-top: 0.5%;
+    position: absolute;
+}
+
+.main-his #lichsu #lsscroll .bc-body .hide {
+    white-space: nowrap;
+    position: absolute;
+    width: 100%;
+    font-weight: bolder;
+    background: black;
+    display: none;
+}
+
+.main-his #lichsu #lsscroll .bc-body:hover .hide {
+    display: block;
+}
+
+.main-his #lichsu #lsscroll .bc-body img {
+    width: 29%;
+}
+
+.main-wrap,
+.main-his {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    display: none;
+}
+
+.noselect {
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+.main-wrap.show-main,
+.main-his.show-main,
+.main-his #lichsu.show-main {
+    display: block
+}
+
+.main-wrap.show-main .terminator,
+.main-his.show-main .terminatorhis {
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.show-from {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 45%;
+    height: 80%;
+    display: none;
+    z-index: 8888;
+    background-image: url(../img/bg_big.png);
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.show-from.show-main {
+    display: block;
+}
+
+.show-from img {
+    cursor: pointer;
+}
+
+.from-none {
+    font-weight: 600;
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    color: black;
+    background: none;
+    border: none;
+    padding: .375rem .75rem;
+    background-color: white;
+}
+
+.show-from .title {
+    padding: 2% 20%;
+    display: inline-block;
+    background: url(../img/thong-bao.png) no-repeat center 0px / cover;
+    background-size: auto 100%;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 12%;
+}
+
+.show-from.register-from {
+    max-height: 60%;
+}
+
+.show-from.login-from .div-from {
+    height: 19%;
+    margin-top: 2%;
+    position: relative;
+}
+
+.show-from.register-from .div-from {
+    height: 17%;
+    margin-top: 0.5%;
+    position: relative;
+}
+
+.show-from.login-from {
+    max-height: 50%;
+}
+
+.show-from.thong-bao {
+    height: auto;
+    max-height: 60%;
+}
+
+.from-input {
+    position: relative;
+}
+
+.from-input input {
+    font-weight: 600;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: black;
+    background: none;
+    border: none;
+    padding: .375rem .75rem;
+}
+
+.from-input img {
+    width: 100%;
+    height: 100%;
+}
+
+.from-button {
+    position: relative;
+    cursor: pointer;
+    background-size: 100% 100%;
+    border: none;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.from-button.info {
+    background-image: url(../web/btn_info.png);
+}
+
+.from-button.do {
+    background-image: url(../web/btn/red.png);
+}
+
+.from-button.luc {
+    background-image: url(../web/btn/green.png);
+}
+
+.from-button.lam {
+    background-image: url(../web/btn/blue.png);
+}
+
+.from-button.tim {
+    background-image: url(../web/btn/purple.png);
+}
+
+.from-button.d0 {
+    background-image: url(../web/btn/0.png);
+}
+
+.from-button.d1 {
+    background-image: url(../web/btn/1.png);
+}
+
+.from-button.d2 {
+    background-image: url(../web/btn/2.png);
+}
+
+.from-button.d3 {
+    background-image: url(../web/btn/3.png);
+}
+
+.from-button.d4 {
+    background-image: url(../web/btn/4.png);
+}
+
+.from-button.d5 {
+    background-image: url(../web/btn/5.png);
+}
+
+.from-button.d6 {
+    background-image: url(../web/btn/6.png);
+}
+
+.from-button.d7 {
+    background-image: url(../web/btn/7.png);
+}
+
+.from-button.d8 {
+    background-image: url(../web/btn/8.png);
+}
+
+.from-button.d9 {
+    background-image: url(../web/btn/9.png);
+}
+
+.from-button.d10 {
+    background-image: url(../web/btn/10.png);
+}
+
+.from-button.his {
+    background-image: url(../web/his_top.png);
+}
+
+.from-button.info {
+    background-image: url(../web/btn/info.png);
+}
+
+.from-button .middle {
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 0px 0px 4px black, 0px 0px 4px black, 0px 0px 4px black;
+    white-space: nowrap;
+}
+
+#user,
+#naptien,
+#ruttien,
+#reftien {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    background: url(../web/bg.jpg) 0% 0% / 100% 100% no-repeat;
+    display: none
+}
+
+#user .top,
+#naptien .top,
+#ruttien .top,
+#reftien .top {
+    height: 15%;
+    width: 100%;
+}
+
+#user .top .back,
+#naptien .top .back,
+#ruttien .top .back,
+#reftien .top .back {
+    height: 60%;
+    float: left;
+    width: 6%;
+    margin: 0% 2%;
+    background: url(../web/btn_back.png) 0% 0% / cover no-repeat;
+    margin-top: 1%;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+#user .top .header,
+#naptien .top .header,
+#ruttien .top .header,
+#reftien .top .header {
+    height: 100%;
+    float: left;
+    width: 90%;
+}
+
+#user .top .header .zoom-hover,
+#naptien .top .header .zoom-hover,
+#ruttien .top .header .zoom-hover,
+#reftien .top .header .zoom-hover {
+    height: 75%;
+    float: left;
+    width: 20%;
+    background: url(../web/btn_head.png) 0% 0% / cover no-repeat;
+    color: white;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#user .top .header .zoom-hover.active,
+#naptien .top .header .zoom-hover.active,
+#ruttien .top .header .zoom-hover.active,
+#reftien .top .header .zoom-hover.active {
+    height: 75%;
+    float: left;
+    width: 20%;
+    background: url(../web/btn_head2.png) 0% 0% / cover no-repeat;
+    color: yellow;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#user .top .header .zoom-hover .middle,
+#naptien .top .header .zoom-hover .middle,
+#ruttien .top .header .zoom-hover .middle,
+#reftien .top .header .zoom-hover .middle {
+    position: absolute;
+    white-space: nowrap;
+    font-weight: bolder;
+    text-shadow: 0px 0px 4px black, 0px 0px 4px black, 0px 0px 4px black;
+}
+
+#naptien .show1,
+#naptien .show2,
+#naptien .show3,
+#naptien .show4,
+#naptien .show5,
+#ruttien .show1,
+#ruttien .show2,
+#ruttien .show3,
+#ruttien .show4,
+#ruttien .show5,
+#reftien .show1,
+#reftien .show2,
+#reftien .show3,
+#reftien .show4,
+#reftien .show5,
+#reftien .hide-main,
+#user .show1,
+#user .show2,
+#user .show3,
+#user .show4,
+#user .show5 {
+    display: none;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+}
+
+#naptien .show1.show-main,
+#naptien .show2.show-main,
+#naptien .show3.show-main,
+#naptien .show4.show-main,
+#naptien .show5.show-main,
+#ruttien .show1.show-main,
+#ruttien .show2.show-main,
+#ruttien .show3.show-main,
+#ruttien .show4.show-main,
+#ruttien .show5.show-main,
+#reftien .show1.show-main,
+#reftien .show2.show-main,
+#reftien .show3.show-main,
+#reftien .show4.show-main,
+#reftien .show5.show-main,
+#reftien .hide-main.show-main,
+#user .show1.show-main,
+#user .show2.show-main,
+#user .show3.show-main,
+#user .show4.show-main,
+#user .show5.show-main {
+    display: block;
+}
+
+#naptien .body,
+#ruttien .body,
+#reftien .body {
+    width: 88%;
+    height: 100%;
+    margin-left: 6%;
+    color: snow;
+    text-shadow: 0px 0px 4px black, 0px 0px 4px black, 0px 0px 4px black;
+    overflow: auto;
+}
+
+#naptien .body .body1,
+#naptien .body .body2,
+#ruttien .body .body1,
+#ruttien .body .body2,
+#reftien .body .body1,
+#reftien .body .body2 {
+    float: left;
+    width: 43%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(41, 126, 207, 0.5);
+    box-shadow: rgba(153, 153, 153, 0.5) 0px 0px 20px 1px;
+}
+
+#naptien .body .body2,
+#ruttien .body .body2,
+#reftien .body .body2 {
+    width: 55%;
+    margin-left: 2%
+}
+
+table thead tr th,
+table tbody tr td {
+    padding: 1.5%;
+}
+
+table tbody tr:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.2)
+}
